@@ -26,5 +26,6 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig,
   appearance: false,
+  base: '/learn-vim/',
 })
 
