@@ -1,4 +1,6 @@
 <script setup>
+import { useRouter } from 'vitepress'
+const router = useRouter()
 
 const routes = [
   {
@@ -23,16 +25,16 @@ const routes = [
   }
 ]
 
-const handleClick = (route) => window.location.href = route.path
+const handleClick = (route) => {
+  router.go(route.path)
+}
 
 </script>
   
 <template>
-  <keep-alive>
-    <div class="container">
-      <div class='route-item' @click='handleClick(route)' v-for='route in routes' :key='route.path'>{{ route.name }}</div>
-    </div>
-  </keep-alive>
+  <div class="container">
+    <div class='route-item' @click='handleClick(route)' v-for='route in routes' :key='route.path'>{{ route.name }}</div>
+  </div>
 </template>
   
 <style lang="scss" scoped>
