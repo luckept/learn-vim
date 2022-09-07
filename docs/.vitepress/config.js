@@ -23,7 +23,6 @@ const themeConfig = {
 
 export default defineConfig({
   title: 'Learn Vim',
-  lastUpdated: true,
   themeConfig,
   appearance: false,
   base: '/learn-vim/',
