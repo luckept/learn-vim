@@ -31,6 +31,7 @@ export default defineConfig({
   description: '上手 vim',
   lastUpdated: true,
   themeConfig,
-  appearance: false
+  appearance: false,
+  base: '/learn-vim/',
 })
 
