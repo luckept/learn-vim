@@ -1,12 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 const themeConfig = {
-  logo: '/logo.svg',
-  head: [
-    ['link', {
-      href: '/logo.svg'
-    }],
-  ],
+  logo: '/logo.png',
   socialLinks: [
     { icon: 'github', link: 'https://github.com/luckept' },
   ],
@@ -28,7 +23,6 @@ const themeConfig = {
 
 export default defineConfig({
   title: 'Learn Vim',
-  description: '上手 vim',
   lastUpdated: true,
   themeConfig,
   appearance: false,
