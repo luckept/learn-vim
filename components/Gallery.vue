@@ -28,9 +28,11 @@ const handleClick = (route) => window.location.href = route.path
 </script>
   
 <template>
-  <div class="container">
-    <div class='route-item' @click='handleClick(route)' v-for='route in routes' :key='route.path'>{{ route.name }}</div>
-  </div>
+  <keep-alive>
+    <div class="container">
+      <div class='route-item' @click='handleClick(route)' v-for='route in routes' :key='route.path'>{{ route.name }}</div>
+    </div>
+  </keep-alive>
 </template>
   
 <style lang="scss" scoped>
