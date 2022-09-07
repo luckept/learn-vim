@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 const themeConfig = {
   logo: '/logo.png',
   socialLinks: [
-    { icon: 'github', link: 'https://github.com/luckept' },
+    { icon: 'github', link: 'https://github.com/luckept/learn-vim' },
   ],
   footer: {
     message: 'Released under the MIT License.',
