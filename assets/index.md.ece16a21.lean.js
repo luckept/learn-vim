@@ -1,1 +1,0 @@
-import{_ as t,c as a,a as n,o,r}from"./app.ad189b66.js";const x=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","lastUpdated":1662552315000}'),s={name:"index.md"};function c(d,l,p,_,i,m){const e=r("Gallery");return o(),a("div",null,[n(e)])}const u=t(s,[["render",c]]);export{x as __pageData,u as default};
