@@ -14,7 +14,7 @@ const themeConfig = {
       {
         text: 'VIM 篇',
         items: [
-          { text: '1、存活下来', link: '/vim/living.md' },
+          { text: '1、走出舒适区，存活下来', link: '/vim/living.md' },
         ]
       }
     ]
