@@ -25,6 +25,6 @@ export default defineConfig({
   title: 'Learn Vim',
   themeConfig,
   appearance: false,
-  base: '/learn-vim/',
+  // base: '/learn-vim/',
 })
 
