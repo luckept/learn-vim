@@ -25,7 +25,7 @@ const routes = [
   }
 ]
 
-const handleClick = (route) => router.go(`${route.path}`)
+const handleClick = (route) => router.go(`route.path`)
 </script>
   
 <template>
