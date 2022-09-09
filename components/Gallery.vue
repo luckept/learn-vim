@@ -26,7 +26,7 @@ const routes = [
 ]
 
 const handleClick = (route) => {
-  router.go(`learn-vim/${route.path}`)
+  router.go(`${route.path}`)
 }
 
 </script>
