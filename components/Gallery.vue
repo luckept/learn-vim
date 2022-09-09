@@ -1,7 +1,7 @@
 <script setup>
 import { useRouter } from 'vitepress'
-const router = useRouter()
 
+const router = useRouter()
 const routes = [
   {
     name: 'Vim 篇',
@@ -25,10 +25,7 @@ const routes = [
   }
 ]
 
-const handleClick = (route) => {
-  router.go(`${route.path}`)
-}
-
+const handleClick = (route) => router.go(`${route.path}`)
 </script>
   
 <template>
@@ -47,18 +44,19 @@ const handleClick = (route) => {
   grid-template-rows:  1fr 1fr 1fr;
   .route-item {
     width: 300px;
-    height: 150px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     border-radius: 6px;
     box-shadow: 0 0 10px #eee;
     cursor: pointer;
 
     &:hover {
-      box-shadow: 0 0 20px #eee;
+      color:#4753e1; 
+      border: 5px solid #4753e1;
     }
   }
 }
